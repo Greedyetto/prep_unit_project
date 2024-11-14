@@ -4,7 +4,7 @@ def set_objective(x, a, b):
     """ return the objective function """
     y = a*x+b
     #To-Do set the objective equation
-    pass
+    return y
 
 def get_result( x, y):
     """Return optimal values for a and b for the equation y = a*x+b """
