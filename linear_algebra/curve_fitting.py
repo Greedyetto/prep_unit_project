@@ -2,6 +2,7 @@ from scipy.optimize import curve_fit
 
 def set_objective(x, a, b):
     """ return the objective function """
+    y = a*x+b
     #To-Do set the objective equation
     pass
 
